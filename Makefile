@@ -1,2 +1,2 @@
 all:
-	gcc -std=c99 -Wall hello_world.c -o hello_world
+	gcc -std=c99 -Wall -Werror hunkpapa.c -ledit -o hunkpapa
